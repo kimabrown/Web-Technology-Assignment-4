@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <met<a href="admin.html">admin.html</a>a charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 align="center">Administrative Blog Form</h1>
+      <form style="text-align:center; name="form" method="post" 
+       action="http://localhost:8090/process.php">
+        <table border="0" align=center>
+            <tr>
+                <td align="left">Name:</td>
+                <td><input type="text" maxlength="20" name="name" size="50" required="required" 
+                     pattern ="[A-Za-z ]+" message="Alphas or spaces only"/><br/></td>
+            </tr>
+            <tr>
+                <td align="left">Title:</td>
+                <td><input type="text" maxlength="20" name="title" size="50" required="required" 
+                     pattern="[A-Za-z ']+" message="Alphas, spaces, or ' only"/><br/></td>
+            </tr>
+            <tr>
+                <td align="left">Image:</td>
+                <td><input type="file" size="35"/></td>
+            </tr>
+        </table>
+
+        <h2 align="center">Enter Blog Below</h2>
+   
+        <table border="0" align=center>
+            <tr>
+                <td><textarea rows="15" cols="60"></textarea></td>
+            </tr>
+        </table>
+        <br />
+        <table border="0" align=center>
+            <tr>
+                <td align="left"><input type="reset" value="Reset" name="reset_button" /></td>
+                <td><input type="submit" value="Submit" name="submit_button" /></td>
+            </tr>
+        </table>
+      </form>
+</body>
+</html>>
